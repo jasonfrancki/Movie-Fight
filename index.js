@@ -1,4 +1,5 @@
 // OMDb API Key = 88f187a4
+
 const fetchData = async (searchTerm) => {
 	const response = await axios.get('http://www.omdbapi.com/', {
 		params: {
